@@ -39,20 +39,16 @@ Courtesy of [rohitsingh9990's PANDA EDA](https://www.kaggle.com/code/rohitsingh9
 
 ## Quick Start
 
-### Prerequisites
+### Prerequisites & Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/PANDA-Challenge.git
+cd PANDA-Challenge
+
 # Create conda environment
 conda env create -f environment.yml
 conda activate PANDA
-```
-
-### Installation
-
-```bash
-git clone https://github.com/yourusername/PANDA-Challenge.git
-cd PANDA-Challenge
-pip install -r requirements.txt
 ```
 
 ### Training
@@ -87,7 +83,6 @@ PANDA-Challenge/
 ├── log/                       # Training logs and metrics
 ├── data_csv/                  # Dataset CSV files
 ├── train_256_36/             # Preprocessed training tiles
-└── val/                      # Validation data
 ```
 
 ## Configuration
