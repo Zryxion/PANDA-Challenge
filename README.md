@@ -76,7 +76,7 @@ jupyter notebook panda-effnet-inference.ipynb
 ```
 PANDA-Challenge/
 ├── environment.yml              # Conda environment configuration
-├── Train.py                    # Main training script
+├── train.py                    # Main training script
 ├── panda-effnet-inference.ipynb # Inference notebook with ensemble
 ├── README.md                   # This file
 ├── models/                     # Saved model checkpoints
